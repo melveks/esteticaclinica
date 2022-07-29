@@ -1,0 +1,79 @@
+.mission__area {
+  width: 100vw;
+}
+
+.mission {
+  background-color: antiquewhite;
+  width: 100vw;
+  margin: auto;
+}
+.mission__text {
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 80vw;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+}
+.mission__title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -250px;
+  perspective: 1000px;
+}
+
+.card {
+  position: relative;
+  width: 20vw;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: #ecf0f1;
+  border-radius: 0.8rem;
+  transform-style: preserve-3d;
+}
+
+.face {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.8rem;
+  background-size: cover;
+  background-position: center center;
+  backface-visibility: hidden;
+  transition: transform 0.5s ease-in-out;
+}
+
+.face--front img {
+  width: 100%;
+  border-radius: 0.8rem;
+  height: 20vh;
+}
+
+.face--back {
+  background: #91846b;
+  font-size: 1.5rem;
+  transform: rotateY(180deg);
+  width: 100%;
+  height: 20vh;
+}
+
+.card:hover .face--front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .face--back {
+  transform: rotateY(0deg);
+}

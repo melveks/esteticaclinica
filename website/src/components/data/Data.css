@@ -1,0 +1,12 @@
+.data__table {
+  margin-left: 520px;
+  margin-bottom: 50px;
+}
+table td {
+  border: solid 1px #000;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin: 0 0 0 0;
+}

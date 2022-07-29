@@ -1,0 +1,15 @@
+.footer {
+  height: 100%;
+  background-color: rgb(136, 125, 111);
+  margin: -20px;
+  text-align: center;
+  width: 100vw;
+  margin: 0 auto;
+  grid-area: footer;
+}
+
+.footer__social ul li {
+  display: inline-block;
+  justify-content: space-between 20px;
+  margin: 10px;
+}

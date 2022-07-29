@@ -1,0 +1,36 @@
+.slideImages {
+  width: 30vw;
+  position: relative;
+  top: -200;
+  left: 500px;
+}
+.slidebutton1 {
+  position: absolute;
+  top: 110%;
+  right: 372px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.slidebutton2 {
+  position: absolute;
+  top: 110%;
+  left: 372px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

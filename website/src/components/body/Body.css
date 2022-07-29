@@ -1,0 +1,46 @@
+.body {
+  grid-area: body;
+  width: 100vw;
+  padding-top: 100px;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  top: 500px;
+  left: 500px;
+  font-size: 10rem;
+}
+.translate {
+  margin: -10px;
+  background-color: rgb(173, 46, 152);
+  height: 20px;
+  text-align: center;
+  padding: -1px;
+  border: -1px;
+  margin: 0 auto;
+  width: 1500px;
+}
+.contentStyle {
+  height: 400px;
+  max-width: 100%;
+  align-items: center;
+  margin-top: 0;
+}
+
+.body__area {
+  animation: fadeInAnimation ease 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

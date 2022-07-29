@@ -1,0 +1,23 @@
+.products {
+  background-color: antiquewhite;
+  height: 1500px;
+  width: 1500px;
+  margin: 0 auto;
+}
+.products__title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.products__text {
+  margin: 100px;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+.products__image {
+  position: relative;
+  top: -50px;
+  left: 600px;
+}

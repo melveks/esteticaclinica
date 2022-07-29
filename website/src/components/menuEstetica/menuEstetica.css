@@ -1,0 +1,27 @@
+.menuburger {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+  z-index: 100;
+
+}
+
+.nav_icons {
+  cursor: pointer;
+  list-style: none;
+
+}
+
+.list__estetica{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 768px) {
+
+  #list {
+    display: none;
+  }
+
+
+}

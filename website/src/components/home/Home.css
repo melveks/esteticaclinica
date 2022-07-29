@@ -1,0 +1,18 @@
+.home{
+    height: 500px;
+}
+.list{
+    
+}   
+@media (max-width: 768px) {
+ 
+    .list{
+        display:none;
+    }
+    .nav_icons{
+        display:block;
+    }
+
+
+    
+}

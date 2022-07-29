@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69bfbc45.css",
+    "main.js": "/static/js/main.d98408da.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/pexels-shiny-diamond-3762633.jpg": "/static/media/pexels-shiny-diamond-3762633.d4227e73509046af3813.jpg",
+    "static/media/pexels-gustavo-fring-3985331.jpg": "/static/media/pexels-gustavo-fring-3985331.6dc5e32fec2438439c14.jpg",
+    "static/media/pexels-yan-krukov-7011209.jpg": "/static/media/pexels-yan-krukov-7011209.7e28236fefac3424df94.jpg",
+    "static/media/pexels-andrea-piacquadio-3764013.jpg": "/static/media/pexels-andrea-piacquadio-3764013.8acbda8aa7d20916ddd7.jpg",
+    "static/media/000_3896 _.jpg": "/static/media/000_3896 _.0a37257175e87476c09a.jpg",
+    "static/media/logo.png": "/static/media/logo.ff29fa2af2cea307db43.png",
+    "index.html": "/index.html",
+    "main.69bfbc45.css.map": "/static/css/main.69bfbc45.css.map",
+    "main.d98408da.js.map": "/static/js/main.d98408da.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bfbc45.css",
+    "static/js/main.d98408da.js"
+  ]
+}

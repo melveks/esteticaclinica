@@ -1,0 +1,23 @@
+.about {
+  background-color: antiquewhite;
+  width: 80vw;
+  margin: auto;
+}
+.about__me {
+  text-align: center;
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace
+}
+.about__text {
+  margin: 100px;
+  justify-content: center;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.about__image {
+  width: 30vw;
+  border-radius: 50%;
+}
+.about__column {
+  width: 100px;
+}

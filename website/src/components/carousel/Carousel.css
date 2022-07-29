@@ -1,0 +1,14 @@
+.images {
+  width: 100%;
+  height: 70vh;
+}
+.carousel_images {
+  width: 80vw;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .images {
+    width: 150px;
+  }
+  
+}
