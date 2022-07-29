@@ -2,12 +2,20 @@
 
 Projeto de um site em React.js para uma Clínica de estética, com o objetivo de aplicar alguns conceitos :
 -Efeitos em Css
+
 -Componentes
+
 -Router
+
 -useState
+
 -Carousel
+
 -UseEffect
+
 -Props
+
 -Conexão a base de dados Netuno (www.netuno.org)
+
 
 Para iniciar o projeto : ./netuno server app=comercios
